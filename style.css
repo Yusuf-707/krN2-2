@@ -1,0 +1,387 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(42, 42, 252, 0.2);
+}
+body .container {
+  margin: 20px auto;
+  width: 1440px;
+  height: 2386px;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: white;
+}
+body .container header {
+  width: 1319px;
+  height: 80px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: start;
+  gap: 25%;
+  padding-left: 20px;
+  background-color: #6155F5;
+  border-radius: 30px;
+}
+body .container header i {
+  color: #ffffff;
+  font-size: 20px;
+}
+body .container header nav {
+  width: 635px;
+  height: 80px;
+}
+body .container header nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+  align-items: center;
+}
+body .container header nav ul li {
+  width: 168px;
+  height: 41px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+body .container header .header-menu {
+  display: none;
+}
+body .container main {
+  width: 1440px;
+}
+body .container main .main-header {
+  width: 100%;
+  height: 809px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  padding-top: 20px;
+  align-items: center;
+}
+body .container main .main-header .hello {
+  border: 1px solid #6155F5;
+  color: #6155F5;
+  width: 100px;
+  border-radius: 20px;
+}
+body .container main .main-header .I-am {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+}
+body .container main .main-header .main-header-text {
+  margin-top: 50px;
+  width: 100%;
+  height: 409px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 60px;
+}
+body .container main .main-header .main-header-text .background-color {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  z-index: 0;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6155F5;
+  border-radius: 500px 500px 0 0;
+}
+body .container main .main-header .main-header-text .background-color img {
+  width: 50%;
+  height: 140%;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+body .container main .main-header button {
+  width: 1308px;
+  height: 80px;
+  background-color: #6155F5;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 35px;
+  font-size: 17px;
+  border: 0;
+  margin-top: -20px;
+}
+body .container main .main-divs {
+  width: 1316px;
+  height: 818px;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+body .container main .main-divs h2 {
+  text-align: start;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 35px;
+}
+body .container main .main-divs .div-naviki {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body .container main .main-divs .div-naviki .naviki {
+  width: 647px;
+  height: 222px;
+  display: flex;
+  flex-flow: row;
+  background-color: #6155F5;
+  border-radius: 25px;
+  align-items: center;
+  gap: 10%;
+  padding: 60px;
+}
+body .container main .main-divs .div-naviki .naviki .div-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+body .container main .main-divs .div-naviki .naviki .div-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+body .container main .main-divs .div-naviki .naviki .div-text {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+body .container main .main-divs .div-naviki .naviki .div-text p {
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .score {
+  width: 264px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .score::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0%;
+  width: 60%;
+  height: 100%;
+  background-color: blue;
+  z-index: 0;
+  border-radius: 20px;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .n-1::after {
+  width: 70%;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .n-2::after {
+  width: 20%;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .n-3::after {
+  width: 90%;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .n-4::after {
+  width: 40%;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .n-5::after {
+  width: 90%;
+}
+body .container main .main-divs .div-naviki .naviki .div-text .n-6::after {
+  width: 40%;
+}
+body .container footer {
+  width: 1320px;
+  height: 412px;
+  background-color: #6155F5;
+  border-radius: 30px;
+  padding: 50px 20px 20px 80px;
+}
+body .container footer .footer-header {
+  width: 925px;
+  height: 256px;
+  display: flex;
+  flex-flow: row;
+  align-items: start;
+  justify-content: start;
+  gap: 250px;
+}
+body .container footer .footer-header .novigatsiya,
+body .container footer .footer-header .kontakti {
+  width: 106px;
+  height: 168px;
+  color: #ffffff;
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+}
+body .container footer .footer-header .novigatsiya p,
+body .container footer .footer-header .kontakti p {
+  color: #929191;
+}
+body .container footer .footer-header .novigatsiya h4,
+body .container footer .footer-header .kontakti h4 {
+  font-size: 13px;
+}
+body .container footer .footer-footer {
+  width: 1122px;
+  height: 26px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .container header {
+    width: 90% !important;
+    gap: 10% !important;
+  }
+  .container main {
+    width: 100% !important;
+    margin-bottom: 230px;
+  }
+  .container main .main-header {
+    width: 100% !important;
+    padding-top: 250px !important;
+    padding-right: 20px;
+  }
+  .container main .main-header .main-header-text {
+    padding: 0 10px !important;
+  }
+  .container main .main-header .main-header-text h5,
+  .container main .main-header .main-header-text h3 {
+    z-index: 1;
+  }
+  .container main .main-header .main-header-text h3 {
+    margin-top: 100px;
+  }
+  .container main .main-header .main-header-text .background-color img {
+    z-index: 1;
+    top: 20% !important;
+  }
+  .container main .main-header button {
+    z-index: 1;
+    width: 688px !important;
+  }
+  .container main .main-divs {
+    margin-top: 40px !important;
+    width: 100% !important;
+    height: 1352px !important;
+  }
+  .container main .main-divs h2 {
+    padding-left: 30px;
+  }
+  .container main .main-divs .div-naviki .naviki {
+    margin: 0 auto;
+  }
+  .container footer {
+    width: 687px !important;
+    height: 372px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    margin: 0% !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  .container header {
+    justify-content: space-between !important;
+    padding-right: 10px;
+  }
+  .container header nav {
+    display: none;
+  }
+  .container header .header-menu {
+    display: block !important;
+  }
+  .container main {
+    width: 100% !important;
+  }
+  .container main .main-header {
+    width: 100% !important;
+    overflow: hidden;
+    padding-top: 30px !important;
+  }
+  .container main .main-header .I-am {
+    font-size: 30px !important;
+  }
+  .container main .main-header .main-header-text h5,
+  .container main .main-header .main-header-text h3 {
+    display: none;
+  }
+  .container main .main-header button {
+    width: 344px !important;
+    margin-top: -60px !important;
+    margin-left: 5%;
+  }
+  .container main .main-divs {
+    width: 342px !important;
+    height: auto;
+  }
+  .container main .main-divs .div-naviki {
+    width: 100%;
+  }
+  .container main .main-divs .div-naviki .naviki {
+    width: 100% !important;
+    height: 90px;
+    padding: 15px;
+    gap: 15px;
+  }
+  .container main .main-divs .div-naviki .naviki .div-img {
+    width: 45px;
+    height: 45px;
+  }
+  .container main .main-divs .div-naviki .naviki .div-text {
+    gap: 12px;
+  }
+  .container main .main-divs .div-naviki .naviki .div-text p {
+    font-size: 18px;
+  }
+  .container footer {
+    width: 95% !important;
+    height: 320px !important;
+    padding: 13px !important;
+  }
+  .container footer .footer-header {
+    justify-content: start !important;
+    gap: 4px !important;
+  }
+  .container footer .footer-footer {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
